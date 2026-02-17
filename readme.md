@@ -1,4 +1,4 @@
-a de Publicação: Projetos Web Inetz
+## Manual de Publicação: Projetos Web Inetz
 
 Olá, aluno! Este projeto utiliza um fluxo de **Integração Contínua (CI/CD)**. Ao enviar seu código para o GitHub, ele será publicado automaticamente no servidor da Inetz.
 
