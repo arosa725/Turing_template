@@ -1,12 +1,19 @@
 ## Manual de Publicação: Projetos Web Inetz
 
-Olá, aluno! Este projeto utiliza um fluxo de **Integração Contínua (CI/CD)**. Ao enviar seu código para o GitHub, ele será publicado automaticamente no servidor da Inetz.
+
+creditamos que a educação é um processo contínuo que ganha significado quando encontra a realidade. Por isso, a Inetz assume como um de seus pilares fundamentais a Educação Continuada.
+
+Nosso papel vai muito além de disponibilizar recursos computacionais e infraestrutura para o curso de Desenvolvimento de Sistemas do Novo Ensino Médio. Nosso verdadeiro compromisso reside em identificar, preparar e colocar jovens talentos no mercado de trabalho.
+
+Os Professores do Curso de Desenvolvimento de Sistemas do Novo Ensino Médio, não tem só a missão de ensinarem linguagens de programação; mas sim moldar profissionais prontos para o mundo real.
+Este projeto utiliza as mais atuais tecnologias em sistemas de informação, vamos começar com o fluxo de **Integração Contínua (CI/CD)**. Ao enviar seu código para o GitHub, ele será publicado automaticamente nos servidores da Inetz para que você possa ver seus resultados e mostrar para qualquer pessoa de qualquer lugar.
 
 ## 📂 Sua URL de Acesso
-Com a nova organização por categorias, seu projeto front-end estará disponível em:
-`https://lab.inetz.com.br/projetos/web/[seu-RA]/turing`
+Os projetos das disciplinas poderão a qualquer momento estár online seguindo a organização por categorias, seu projeto front-end estará disponível em:
+`https://lab.inetz.com.br/projetos/web/[seu-RA]/turing` onde Turing é nosso projeto do Teste de Turing que estamos vendo na nossa Disciplina de Inteligencia Artificial.
 
----
+# **O que você precisa fazer?
+
 
 ## 🛠️ Configuração do GitHub Actions
 
@@ -33,7 +40,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.key_alunos }}
           source: "."
-          target: "/var/inetpub/wwwroot/projetos/web/${{ secrets.ALUNO_RA }}/turing"a de Publicação: Ecossistema de Projetos Inetz
+          target: "/var/inetpub/wwwroot/projetos/web/${{ secrets.ALUNO_RA }}/turing"
 ```
 
 Olá, aluno! Bem-vindo ao laboratório de desenvolvimento da Inetz. Aqui, seu aprendizado vai além do código: você utilizará um fluxo profissional de Integração e Entrega Contínua (CI/CD).
