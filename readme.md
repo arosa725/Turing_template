@@ -34,6 +34,8 @@ jobs:
           key: ${{ secrets.key_alunos }}
           source: "."
           target: "/var/inetpub/wwwroot/projetos/web/${{ secrets.ALUNO_RA }}/turing"a de Publicação: Ecossistema de Projetos Inetz
+```
+
 Olá, aluno! Bem-vindo ao laboratório de desenvolvimento da Inetz. Aqui, seu aprendizado vai além do código: você utilizará um fluxo profissional de Integração e Entrega Contínua (CI/CD).
 
 💡 O Conceito de Integração
